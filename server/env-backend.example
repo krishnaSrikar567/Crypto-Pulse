@@ -1,0 +1,28 @@
+# Backend Server Configuration
+# Copy this file to .env and fill in your values
+
+# Server Configuration
+PORT=5000
+FRONTEND_URL=http://localhost:5176
+
+# Email Service Configuration
+# Choose: 'gmail', 'outlook', or 'custom'
+EMAIL_SERVICE=gmail
+
+# Gmail Configuration (if using Gmail)
+EMAIL_USER=rishith2204086@gmail.com
+EMAIL_APP_PASSWORD=your_gmail_app_password
+
+# Outlook Configuration (if using Outlook)
+EMAIL_USER=your_email@outlook.com
+EMAIL_PASSWORD=your_outlook_password
+
+# Custom SMTP Configuration (if using custom)
+SMTP_HOST=your_smtp_host
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=your_smtp_username
+SMTP_PASS=your_smtp_password
+
+# From Email (optional, defaults to EMAIL_USER)
+EMAIL_FROM=alerts@yourdomain.com

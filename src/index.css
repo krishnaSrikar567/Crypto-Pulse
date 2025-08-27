@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom notification styles */
+.notification-container {
+  pointer-events: auto !important;
+}
+
+.notification-item {
+  pointer-events: auto !important;
+  user-select: none;
+}
+
+.notification-item button {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+.notification-item button:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}

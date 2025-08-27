@@ -1,0 +1,18 @@
+# Email Service Configuration
+# Copy this file to .env and fill in your values
+
+# Choose your email service: 'default', 'emailjs', 'sendgrid'
+VITE_EMAIL_SERVICE=default
+
+# EmailJS Configuration (if using EmailJS)
+VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+VITE_EMAILJS_SERVICE_ID=your_emailjs_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
+
+# SendGrid Configuration (if using SendGrid)
+VITE_SENDGRID_API_KEY=your_sendgrid_api_key
+VITE_FROM_EMAIL=alerts@yourdomain.com
+
+# Supabase Configuration
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
