@@ -1,6 +1,6 @@
 # Copy this file to .env and fill in your values
 # Environment variables for Vite (must start with VITE_)
-# Your email: rishith2204086@gmail.com
+# Your email: xxxxxxxxxxxxxxxxxxxxxxx
 
 # Email Service Configuration
 VITE_EMAIL_SERVICE=backend
